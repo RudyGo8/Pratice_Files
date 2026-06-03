@@ -1,0 +1,37 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="rich" />
+          <option value="anyio" />
+          <option value="bcrypt" />
+          <option value="faiss-cpu" />
+          <option value="faker" />
+          <option value="fastapi" />
+          <option value="jieba" />
+          <option value="langchain" />
+          <option value="langchain-community" />
+          <option value="langchain-core" />
+          <option value="langchain-ollama" />
+          <option value="langchain-openai" />
+          <option value="langgraph" />
+          <option value="neo4j" />
+          <option value="neo4j-graphrag" />
+          <option value="pydantic" />
+          <option value="pymysql" />
+          <option value="python-docx" />
+          <option value="python-dotenv" />
+          <option value="python-jose" />
+          <option value="redis" />
+          <option value="sentence-transformers" />
+          <option value="sqlalchemy" />
+          <option value="starlette" />
+          <option value="uvicorn" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
