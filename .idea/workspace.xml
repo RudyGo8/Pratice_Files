@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27fb45e0-474b-4896-a687-d29b0dd44514" name="更改" comment="update 求职提">
+    <list default="true" id="27fb45e0-474b-4896-a687-d29b0dd44514" name="更改" comment="add tcp、udp、mqtt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01python基础编程" beforeDir="false" afterPath="$PROJECT_DIR$/01python基础编程" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/求职题.md" beforeDir="false" afterPath="$PROJECT_DIR$/求职题.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,10 +49,13 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.01基础数据类型.executor": "Run",
     "Python.02多线程.executor": "Run",
+    "Python.Modbus.executor": "Run",
     "Python.SSE.executor": "Run",
+    "Python.fake_plc.executor": "Run",
     "Python.main.executor": "Run",
     "Python.module1.executor": "Run",
     "Python.publisher.executor": "Run",
+    "Python.read.executor": "Run",
     "Python.subscriber.executor": "Run",
     "Python.tcp.executor": "Run",
     "Python.tcp_client.executor": "Run",
@@ -62,8 +63,13 @@
     "Python.udp_server.executor": "Run",
     "Python.websocket_client.executor": "Debug",
     "Python.websockt.executor": "Run",
+    "Python.write.executor": "Run",
+    "Python.匿名函数.executor": "Run",
     "Python.文档.executor": "Run",
     "Python.深拷贝与浅拷贝.executor": "Run",
+    "Python.类型注解.executor": "Run",
+    "Python.闭包装饰器.executor": "Run",
+    "Python.面向对象.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
@@ -73,7 +79,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -84,8 +90,8 @@
       <recent name="F:\AI_Models\DEMO\Practice_Files\04 通讯协议\TCP" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.subscriber">
-    <configuration name="深拷贝与浅拷贝" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.read">
+    <configuration name="闭包装饰器" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="practice-files" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,7 +106,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01python基础编程/深拷贝与浅拷贝.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01python基础编程/闭包装饰器.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="publisher" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Modbus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="practice-files" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,13 +124,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04 通讯协议/MQTT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04 通讯协议" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04 通讯协议/MQTT/publisher.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04 通讯协议/Modbus.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="subscriber" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="fake_plc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="practice-files" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,13 +148,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04 通讯协议/MQTT" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04 通讯协议/Modbus" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04 通讯协议/MQTT/subscriber.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04 通讯协议/Modbus/fake_plc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,7 +163,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tcp_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="read" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="practice-files" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -166,13 +172,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04 通讯协议/TCP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04 通讯协议/Modbus" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04 通讯协议/TCP/tcp_client.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04 通讯协议/Modbus/read.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,7 +187,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="udp_client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="write" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="practice-files" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -190,37 +196,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04 通讯协议/UDP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04 通讯协议/Modbus" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="DEBUG_JUST_MY_CODE" value="false" />
       <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04 通讯协议/UDP/udp_client.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="udp_server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="practice-files" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/04 通讯协议/UDP" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
-      <option name="RUN_TOOL" value="" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04 通讯协议/UDP/udp_server.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04 通讯协议/Modbus/write.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.subscriber" />
-        <item itemvalue="Python.publisher" />
-        <item itemvalue="Python.udp_client" />
-        <item itemvalue="Python.udp_server" />
-        <item itemvalue="Python.tcp_client" />
+        <item itemvalue="Python.read" />
+        <item itemvalue="Python.write" />
+        <item itemvalue="Python.fake_plc" />
+        <item itemvalue="Python.Modbus" />
+        <item itemvalue="Python.闭包装饰器" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779806284936</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add tcp、udp、mqtt">
+      <option name="closed" value="true" />
+      <created>1780495204248</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1780495204248</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +269,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="update 求职提" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 求职提" />
+    <MESSAGE value="add tcp、udp、mqtt" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tcp、udp、mqtt" />
   </component>
 </project>

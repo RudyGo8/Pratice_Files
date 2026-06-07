@@ -2296,6 +2296,7 @@ dependencies = [
     { name = "openpyxl" },
     { name = "paho-mqtt" },
     { name = "pandas" },
+    { name = "pymodbus" },
     { name = "unstructured" },
 ]
 
@@ -2311,6 +2312,7 @@ requires-dist = [
     { name = "openpyxl", specifier = ">=3.1.5" },
     { name = "paho-mqtt", specifier = ">=2.1.0" },
     { name = "pandas", specifier = ">=3.0.3" },
+    { name = "pymodbus", specifier = ">=3.13.0" },
     { name = "unstructured", specifier = ">=0.22.29" },
 ]
 
@@ -2696,6 +2698,15 @@ wheels = [
 [package.optional-dependencies]
 crypto = [
     { name = "cryptography" },
+]
+
+[[package]]
+name = "pymodbus"
+version = "3.13.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/3d/55/eee0782c2ca9fa8e7c3218caca22fe30e850cd6c0c0d475c10b8c19e5a36/pymodbus-3.13.0.tar.gz", hash = "sha256:da4c87afe772787620594c564cd8aa8a4c58ff9786382aba9550fe0ce8879f32", size = 165750, upload-time = "2026-04-12T07:43:23.067Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/ed/9e/6046aa966c04f72417e7f3ee25cec975f770c934ccf83aa6b0c77400ff12/pymodbus-3.13.0-py3-none-any.whl", hash = "sha256:6ce838690b59ef3da00893699d04dc56e60abfb5b569363b7d6526470a3a44f5", size = 166398, upload-time = "2026-04-12T07:43:21.522Z" },
 ]
 
 [[package]]

@@ -15,5 +15,6 @@ dependencies = [
     "openpyxl>=3.1.5",
     "paho-mqtt>=2.1.0",
     "pandas>=3.0.3",
+    "pymodbus>=3.13.0",
     "unstructured>=0.22.29",
 ]
